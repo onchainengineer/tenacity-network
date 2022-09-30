@@ -1,0 +1,12 @@
+syntax = "proto3";
+package onchainengineer.tenacity.tenacity;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/onchainengineer/tenacity/x/tenacity/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
